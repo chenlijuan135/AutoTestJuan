@@ -13,5 +13,6 @@ public class AutoApplication {
     public static void main(String[] args) throws IOException, WriteException, BiffException {
         SpringApplication.run(AutoApplication.class);
         Test.test1();
+        System.out.println("dev1");
     }
 }
